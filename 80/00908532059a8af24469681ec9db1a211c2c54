@@ -1,0 +1,14 @@
+CLAUDE.md
+  h_ec0865e8a99e9f 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "8000908532059a8af24469681ec9db1a211c2c54",
+  "prompts": {},
+  "humans": {
+    "h_ec0865e8a99e9f": {
+      "author": "Claude Sonnet 5 <noreply@anthropic.com>"
+    }
+  }
+}
