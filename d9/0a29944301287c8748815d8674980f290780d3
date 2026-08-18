@@ -1,0 +1,31 @@
+src/main/java/com/demo/server/category/exception/BizException.java
+  s_d8f7fb815502de::t_2bb859fe6c9cdc 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "d90a29944301287c8748815d8674980f290780d3",
+  "prompts": {},
+  "humans": {
+    "h_ec0865e8a99e9f": {
+      "author": "Claude Sonnet 5 <noreply@anthropic.com>"
+    }
+  },
+  "sessions": {
+    "s_d8f7fb815502de": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-a8024b34-5ed5-4573-9f41-fe87b8905028",
+        "model": "default"
+      },
+      "human_author": "Claude Sonnet 5 <noreply@anthropic.com>",
+      "custom_attributes": {
+        "source_scene": "cue",
+        "client_type": "ide",
+        "edit_kind": "file_edit",
+        "external_session_id": "icr-a8024b34-5ed5-4573-9f41-fe87b8905028",
+        "tool": "trae-cue"
+      }
+    }
+  }
+}
