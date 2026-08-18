@@ -9,6 +9,7 @@ public class BizException extends RuntimeException {
     public BizException(String code, String message) {
         super(message);
         this.code = code;
+        System.out.println("分类业务异常：" + code + " - " + message);
     }
 
     public String getCode() {
