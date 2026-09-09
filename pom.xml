@@ -7,17 +7,44 @@
     <groupId>com.example</groupId>
     <artifactId>demo-server</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>demo-server</name>
     <description>demo server backend</description>
 
+    <modules>
+        <module>demo-server-common</module>
+        <module>demo-server-web</module>
+        <module>demo-server-assembly</module>
+    </modules>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <java.version>17</java.version>
+
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.test.skip>true</maven.test.skip>
+
+        <!-- Plugin and Plugin Dependency Versions -->
+
+        <!-- Library Dependency Versions -->
+        <spring-boot.version>2.7.18</spring-boot.version>
+
         <junit.version>5.10.2</junit.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <dependency>
