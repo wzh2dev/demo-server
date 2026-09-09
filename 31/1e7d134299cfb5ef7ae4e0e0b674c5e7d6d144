@@ -1,0 +1,14 @@
+src/main/resources/application.yml
+  h_ec0865e8a99e9f 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "311e7d134299cfb5ef7ae4e0e0b674c5e7d6d144",
+  "prompts": {},
+  "humans": {
+    "h_ec0865e8a99e9f": {
+      "author": "Claude Sonnet 5 <noreply@anthropic.com>"
+    }
+  }
+}
