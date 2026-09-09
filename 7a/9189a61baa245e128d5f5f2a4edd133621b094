@@ -1,6 +1,6 @@
 pom.xml
   s_89e8e37dc233e4::t_0c192b7ce2cd41 10,15-20,23-33,37-47
-  s_89e8e37dc233e4::t_f6ef302033e0af 48
+  s_89e8e37dc233e4::t_9799f3f3caa32e 48
 server-common/pom.xml
   s_89e8e37dc233e4::t_0c192b7ce2cd41 1-14
 server-web/pom.xml
@@ -26,15 +26,15 @@ server-web/pom.xml
       "human_author": "Claude Sonnet 5 <noreply@anthropic.com>",
       "custom_attributes": {
         "edit_kind": "bash",
-        "operation_id": "6aa11a3d46a0bf113f46e76a",
+        "tool_use_id": "6aa11a3d46a0bf113f46e76a",
+        "runtime_client": "trae-tob-git-ai",
+        "session_id": "6aa112d346a0bf113f46e5f8",
+        "tool_name": "RunCommand",
         "external_session_id": "6aa112d346a0bf113f46e5f8",
+        "source_scene": "agent",
         "client_type": "ide",
         "display_model_name": "DeepSeek-V4-Flash",
-        "runtime_client": "trae-tob-git-ai",
-        "source_scene": "agent",
-        "tool_name": "RunCommand",
-        "tool_use_id": "6aa11a3d46a0bf113f46e76a",
-        "session_id": "6aa112d346a0bf113f46e5f8"
+        "operation_id": "6aa11a3d46a0bf113f46e76a"
       }
     }
   }
