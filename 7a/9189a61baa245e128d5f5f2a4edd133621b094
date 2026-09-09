@@ -1,0 +1,41 @@
+pom.xml
+  s_89e8e37dc233e4::t_0c192b7ce2cd41 10,15-20,23-33,37-47
+  s_89e8e37dc233e4::t_f6ef302033e0af 48
+server-common/pom.xml
+  s_89e8e37dc233e4::t_0c192b7ce2cd41 1-14
+server-web/pom.xml
+  s_89e8e37dc233e4::t_0c192b7ce2cd41 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "7a9189a61baa245e128d5f5f2a4edd133621b094",
+  "prompts": {},
+  "humans": {
+    "h_ec0865e8a99e9f": {
+      "author": "Claude Sonnet 5 <noreply@anthropic.com>"
+    }
+  },
+  "sessions": {
+    "s_89e8e37dc233e4": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa112d346a0bf113f46e5f8",
+        "model": "DeepSeek-V4-Flash__dev"
+      },
+      "human_author": "Claude Sonnet 5 <noreply@anthropic.com>",
+      "custom_attributes": {
+        "edit_kind": "bash",
+        "operation_id": "6aa11a3d46a0bf113f46e76a",
+        "external_session_id": "6aa112d346a0bf113f46e5f8",
+        "client_type": "ide",
+        "display_model_name": "DeepSeek-V4-Flash",
+        "runtime_client": "trae-tob-git-ai",
+        "source_scene": "agent",
+        "tool_name": "RunCommand",
+        "tool_use_id": "6aa11a3d46a0bf113f46e76a",
+        "session_id": "6aa112d346a0bf113f46e5f8"
+      }
+    }
+  }
+}
