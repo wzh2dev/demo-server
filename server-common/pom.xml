@@ -5,10 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>demo-server</artifactId>
+        <artifactId>server</artifactId>
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>demo-server-common</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>server-common</artifactId>
 </project>

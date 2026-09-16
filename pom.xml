@@ -5,17 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>demo-server</artifactId>
+    <artifactId>server</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
-    <name>demo-server</name>
-    <description>demo server backend</description>
+    <name>server</name>
+    <description>server backend</description>
 
     <modules>
-        <module>demo-server-common</module>
-        <module>demo-server-web</module>
-        <module>demo-server-assembly</module>
+        <module>assembly</module>
+        <module>server-common</module>
+        <module>server-web</module>
     </modules>
 
     <properties>
